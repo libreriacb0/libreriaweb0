@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Libreria C&B</title>
+    <link rel="stylesheet" href="iconos/css/fontello.css">
+    <link rel="stylesheet" href="iconos/css/fontello1.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/estilos-index.css">
+    <link rel="stylesheet" href="css/footer.css">
+    
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+</head>
+<body>
+    <header>
+    <link rel="icon" href="favicon.ico">
+        <img src="img/11.png" class="img-logo">
+        <input type="checkbox" id="check">
+        <label for="check" class="icon-menu"></label>
+        
+        <nav class="menu">
+            <ul>
+                <li><a href="#" style="background:#df6666;color:white;">Inicio</a></li>
+                <li><a href="#">Articulos</a></li>
+                <li><a href="#">Galeria</a></li>
+                <li><a href="#">contactano</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="content-one">
+            <div class="content-portada">
+                <div class="content-item1">
+                    <h4>Tu gran oportunidad puede ser <h3> donde te encuentras</h3> </h4>
+                    <h2>Ahora</h2>
+                </div>
+            </div>
+        </div>
+        <div class="content-two">
+            <div class="content-details">
+                <div class="content-item2">
+                    <label class="icon-heart"></label>
+                    <h4>Libros</h4>
+                    <p>La capacidad y gusto por la lectura da acceso a lo que ya ha sido descubierto por otros.</p>
+                    
+                </div>
+                <div class="content-item2">
+                    <label class="icon-laptop"></label>
+                    <h4>Escuela</h4>
+                    <p>“La educación es un proceso que no termina nunca” .</p>
+                    
+                </div>
+                <div class="content-item2">
+                    <label class="icon-support"></label>
+                    <h4>Diseño</h4>
+                    <p>El buen diseño va al cielo; los malos diseños va donde sea.</p>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="content-three">
+            <div class="content-module">
+                <h3>Ultimos Agregados</h3>
+<script type="js/mixitup.min.js"></script>
+
+<br>
+
+<div class="controls">
+            <button type="button" class="control" data-filter="all">All</button>
+            <button type="button" class="control" data-filter=".app">Diseño</button>
+            <button type="button" class="control" data-filter=".card">Colegio</button>
+            <button type="button" class="control" data-filter=".icon">Libros</button>
+            <button type="button" class="control" data-filter=".logo">Local</button>
+            
+            <button type="button" class="control" data-filter="none">None</button>
+
+            <button type="button" class="control" data-sort="default:asc">Asc</button>
+            <button type="button" class="control" data-sort="default:desc">Desc</button>
+        </div>
+<div class="portafolio">
+                
+                <div class="mix app"><img src="img/portfolio/app/h15.jpg" alt=""></div>
+                <div class="mix app"><img src="img/portfolio/app/h14.jpg" alt=""></div>
+                 <div class="mix app"><img src="img/portfolio/app/h12.jpg" alt=""></div>
+          
+                <div class="mix card"><img src="img/portfolio/card/1.jpg" alt=""></div>
+                <div class="mix card"><img src="img/portfolio/card/2.jpg" alt=""></div>
+                <div class="mix card"><img src="img/portfolio/card/3.jpg" alt=""></div>
+
+                <div class="mix icon"><img src="img/portfolio/icon/1.jpg" alt=""></div>
+                <div class="mix icon"><img src="img/portfolio/icon/2.jpg" alt=""></div>
+                <div class="mix icon"><img src="img/portfolio/icon/3.jpg" alt=""></div>
+
+                 <div class="mix logo"><img src="img/portfolio/logo/h15.jpg" alt=""></div>
+                 <div class="mix logo"><img src="img/portfolio/logo/h14.jpg" alt=""></div>
+                 <div class="mix logo"><img src="img/portfolio/logo/h12.jpg" alt=""></div>
+
+                              
+
+                <div class="gap"></div>
+                <div class="gap"></div>
+                <div class="gap"></div>
+  
+            </div>
+
+                       <script src="js/vendor/modernizr-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/scriptsjquery.carouFredSel-5.5.2.js"></script>
+  <script src="js/mixitup.min.js"></script>
+
+
+  <script type="text/javascript">
+            $(function() {
+                var pull = $('#pull');  
+                menu = $('nav ul');  
+                menuHeight=menu.height();
+
+                  $(pull).on('click', function(e) {
+                    e.preventDefault();
+                    menu.slideToggle();
+                  });
+
+                  $(window).resize(function(){
+                    var w= $(window).width();
+                    if (w > 320 && menu.is(':hidden')) {
+                        menu.removeAttr('style');
+                    } 
+                  });
+                });
+        </script>
+
+  <script type="text/javascript">
+      
+            $("#slider").carouFredSel({
+                responsive : true,
+                scroll : {
+                    fx:"crossfade",
+                    easing:"swing",
+                    duration:300
+                },
+
+                items : {
+                    visible:1,
+                    height:"27%"
+                }
+            });
+
+  </script>
+
+  <script src="js/main.js"></script>
+
+        <!-- Script de Portafoloio con mixitup -->
+       <script>
+            var containerEl = document.querySelector('.portafolio');
+
+            var mixer = mixitup(containerEl);
+   </script>
+
+
+
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+        <div class="content-for">
+            <div class="content-item3">
+                <h4>Tenemos los Mejores Articulos de Primera</h4>
+                <p>Al ser fieles a la marca que representamos, elevamos la relación del público con ella. El amor se convierte en una pasión. La pasión se convierte en defensa. Y vemos que la marca florece desde dentro, creando una historia completa que el público abraza..</p>
+                <img src="img/img5.png">
+            </div>
+            <div class="content-five">
+                <div class="content-item4">
+                    <h4>SOMOS C&B S.A.C LAS MARCAS SON NUESTROS SUJETOS. LOS CLIENTES SON NUESTRA VOZ.</h4>
+                    <p>Creemos que las ideas vienen de todos, en todas partes. En C&B, todos dentro de los muros de nuestra Negocio son profesionales por derecho propio. Y hay algunos principios que creemos, y creemos que todos deberían creer, acerca de nuestro Negocio..</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <label> <a href="https://twitter.com/" class="icon-twitter" target="_blank" ></a></label>
+        <label> <a href="https://www.facebook.com/"class="icon-facebook" target="_blank"></a></label>
+        <label> <a href="https://www.instagram.com/" target="_blank" class="icon-instagram"></a></label>
+    </footer>
+</body>
+</html>
